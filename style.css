@@ -1,11 +1,19 @@
-
+/* Add google font(poppins)*/
+ 
 * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
 
-li, a, button {
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/fixingcar.jpg") no-repeat center center/cover;
+}
+
+
+li, a, {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -14,13 +22,14 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items:  center;
     padding: 30px 10px;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav-links {
@@ -39,17 +48,3 @@ list-style: none;
 .nav-links li a:hover {
  color: #0088a9;
 }
-
- button {
-    padding: 9px 25px
-    background-color: rgba(0.136.169.1)
-    border: none;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer:
-
- }
-
- button:hover {
-    background-color: rgba(0.136.169.8)
- }
