@@ -1,4 +1,4 @@
-/* Add google font(poppins)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,11 +6,18 @@
     padding: 0;
 }
 
-#hero {
-    height: 425px;
+.hero-image {
+    height: auto;
     width: 100%;
-    background: url("assets/images/road.jpg") no-repeat center center/cover;
+    align-self: center;
+    background-image: url("../images/hero.jpg");
+    padding: 0 15px 0 15px
 }
+
+.img1 {
+width: 100%;
+}
+
 
 
 li,
@@ -22,21 +29,28 @@ font-size: 16px;
 text-decoration: none;
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 10px;
-    position: fixed:
-}
+
+header {}
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav {}
+
+/*test for border*/
+#first {
+    background-color;
+    rgb(107, 177, 125);
+    border: 1px soild #000000;
+    padding: 10px;
 }
 
 .logo {
@@ -46,8 +60,8 @@ body {
 
 
 .nav-links li {
-    display: inline-block;
-    padding: 0 20px;
+    display: inline-flex;
+    padding: 20px 10px;
     color: black
 }
 
@@ -56,7 +70,7 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #0088a9;
+    color: black;
 }
 
 li {
@@ -64,9 +78,19 @@ li {
 }
 
 /*media query(smaller devices)*/
+@media screen and (min-width: 768px) {
+    .img {
+        width: 100%;
+        height: auto;
+        padding bottom: 30px;
+    }
 
-@media screen and (min-width: 768px) 
+body {
+   padding: 0 25px 0 25px;
+}
 
+.hero-image {
+    padding: 0 10px 0 10px;
+}
     /*media query(larger devices)*/
-
- @media screen and (min-width: 992px) {
+    @media screen and (min-width: 992px) {
