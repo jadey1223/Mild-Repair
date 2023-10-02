@@ -104,6 +104,64 @@ li {
     list-style: inside;
 }
 
+footer {
+    background-color: #36424E;
+    margin:;
+    
+}
+
+footer ul li {
+    display: inline;
+}
+
+.social-networks {
+    display: inline-block;
+    text-align: left;
+}
+
+.social-networks a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.social-networks a i {
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.social-networks a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.social-networks a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+
+.div1{
+    text-align: center;
+}
+
+.social-networks {
+    
+    width: 100%;
+    padding: 70px 30px 20px;
+    justify-content: center;
+    
+}
+
+.footerbottom  {
+    text-align: center;
+}
+
+
 /*media query(larger devices)*/
 @media screen and (min-width: 992px) {
     .header {
