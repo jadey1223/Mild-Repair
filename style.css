@@ -16,8 +16,14 @@
 
 .img1 {
     width: 100%;
+    border-radius: 1.2%;
 }
 
+.img2 {
+    width: 100%;
+    align-self: center;
+    border-radius: 1.2%;
+}
 hr {
     border: 0;
     border-top: 2.5px solid #4a4c52;
@@ -32,6 +38,10 @@ a {
     text-decoration: none;
 }
 
+#youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
 
 .header {
     position: fixed;
@@ -61,7 +71,6 @@ body {
     cursor: pointer;
     display: none;
 }
-
 
 .logo {
     cursor: pointer;
@@ -96,18 +105,26 @@ body {
     transition: all 0.3s ease 0s;
 }
 
+section {
+    border: 2px solid rgb(244, 250, 246);
+    padding: 20px;
+    border-radius: 1.35%;
+    background-color: #Cfff83;
+    box-shadow: 0px 0px 10px rgba(114, 207, 110, 0.5);
+  }
+
+
 .nav-links li a:hover {
     color: black;
 }
 
 li {
-    list-style: inside;
+    list-style: list-item;
+    padding: 3px;
 }
 
 footer {
-    background-color: #36424E;
-    margin:;
-    
+    background-color: #4f7c4f;
 }
 
 footer ul li {
@@ -125,7 +142,6 @@ footer ul li {
     background-color: antiquewhite;
     margin: 10px;
     border-radius: 50%;
-
 }
 
 .social-networks a i {
