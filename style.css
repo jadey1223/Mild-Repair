@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .hero-image {
@@ -11,8 +12,8 @@
     width: 100%;
     align-self: center;
     background-image: url("../images/hero.jpg");
-    padding: 0 15px 0 15px
-}
+    padding: 0 15px 0 15px 
+}  
 
 .img1 {
     width: 100%;
@@ -26,8 +27,11 @@
 }
 hr {
     border: 0;
-    border-top: 2.5px solid #4a4c52;
+    border-top: px solid #4a4c52;
     padding-top: 10px;
+    border: none;
+ 
+    margin: 20px 0;
 }
 
 li,
@@ -47,11 +51,22 @@ a {
     position: fixed;
     top: 0;
     left: 0;
+    height: 50px;
     width: 100%;
-    padding: 0 5px 0 5px;
-    background: rgb(0, 0, 0, .1);
-    backdrop-filter: blur(40px);
+    z-index: 100;
+    background-color: rgb(116, 95, 95);
+    
+}
 
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(111, 119, 114), rgb(141, 167, 147));
+    z-index: -1;
 }
 
 body {
@@ -65,58 +80,64 @@ body {
     padding-right: 25px;
 }
 
-.icon {
+/* .icon {
     font-size: 2.8rem;
     color: white;
     cursor: pointer;
     display: none;
-}
-
+} */
+/* link it to the home page */
 .logo {
     cursor: pointer;
     margin-right: auto;
-    font-size: 2rem;
-    font-weight: 500;
-    color: aliceblue;
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    display: flex;
+    letter-spacing: 2px;
+    
 }
 
-.nav-bar {
-    width: 100%;
-    height: 60px;
-    font-size: 1rem;
-    margin: 0 auto;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: space-between;
-}
-
+/* #check:checked~ .navbar {
+    height: 17.7rem;
+} */
 
 .nav-links li {
-    display: inline-flex;
-    padding: 20px 10px;
-    color: black
+    font-size: 18px;
+    display: grid;
+    margin: 2px;
+    gap: 1em;
 }
 
 .nav-links li a {
+    font-weight: 700px;
     font-size: 1.15rem;
     font-weight: 500;
-    Color: white;
+    Color: rgb(0, 0, 0);
     transition: all 0.3s ease 0s;
 }
 
-section {
-    border: 2px solid rgb(244, 250, 246);
-    padding: 20px;
-    border-radius: 1.35%;
-    background-color: #Cfff83;
-    box-shadow: 0px 0px 10px rgba(114, 207, 110, 0.5);
+.nav-links li a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+
+
+
+#check {
+    display: none;
+}
+
+ol,p {
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    background-color: #597c7e;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-
-.nav-links li a:hover {
-    color: black;
-}
 
 li {
     list-style: list-item;
@@ -124,7 +145,7 @@ li {
 }
 
 footer {
-    background-color: #4f7c4f;
+    background-color: #ffffff;
 }
 
 footer ul li {
@@ -142,6 +163,7 @@ footer ul li {
     background-color: antiquewhite;
     margin: 10px;
     border-radius: 50%;
+    
 }
 
 .social-networks a i {
@@ -175,28 +197,71 @@ footer ul li {
 
 .footerbottom  {
     text-align: center;
+    
 }
 
+.logo_image {
+    width: 40px;
+    position: relative;
+}
 
 /*media query(larger devices)*/
-@media screen and (min-width: 992px) {
-    .header {
-        padding: 1.3rem 5%;
-    }
+@media screen and (max-width: 992px) {
+  
 
-    .icon {
-        display: block;
-    }
 }
 
+
+
 /*media query(smaller devices)*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .img {
         width: 100%;
         height: auto;
         padding-bottom: 30px;
     }
 
+    .navbar {
+        top: 100%;
+        display: absolute;
+        width: 100%;
+        height: 0;
+        justify-content: space-between;
+        background: linear-gradient(rgb(111, 119, 114), rgb(141, 167, 147));
+        border-radius: 8px;
+        overflow: hidden;
+        color:#000000;
+        transition: 0.4s ease;
+    }
+
+    .navbar a {
+        display: block;
+    }
+
+    .dropdown  {
+        display: block;
+        text-align: center;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+
+    #check:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+
+    #check:checked~.navbar {
+        height: 120px;
+    }
+
+   
+    }
     body {
         padding: 0 25px 0 25px;
     }
@@ -204,6 +269,5 @@ footer ul li {
     .hero-image {
         padding: 0 10px 0 10px;
     }
-
 
 }
