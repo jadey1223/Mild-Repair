@@ -20,12 +20,12 @@
 }  
 
 .replace-tire {
-    margin: 90px 0 5px 25px; 
+    margin: px 0 5px 25px; 
 }
 
 .replace-tire ul {
     margin: 10px 0 10px 0;
-    padding: 10px 25px 20px;
+    padding: 10px 25px 20px 20px;
     border-radius: 8px;
     background-color: rgb(242, 245, 222);
     box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
@@ -33,10 +33,30 @@
 
 .replace-bulbs ol {
     margin: 10px 0 10px 0;
-    padding: 10px 25px 20px;
+    padding: 10px 25px 20px 20px;
     border-radius: 8px;
     background-color: rgb(242, 245, 222);
     box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
+}
+
+.tax-insurance {
+   
+}
+
+.tax-insurance ul {
+     background-color: #ccffe6;
+     padding: 10px 25px 20px 20px;
+     border-radius: 8px;
+     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+#intro  {
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+#introduction {
+    margin-top: 80px;
 }
 
 .img1 {
@@ -51,14 +71,11 @@
     border-radius: 8px;
 }
 
-/* hr {
-    border: 0;
-    border-top: px solid #4a4c52;
-    padding-top: 10px;
-    border: none;
-    padding-bottom: 20px;
-    margin: 20px 0;
-} */
+hr {
+    border-top: 2px solid black;
+    margin: 30px;
+    
+}
 
 
 #battery {
@@ -92,29 +109,18 @@
     margin-right: 10px;
 }
 
-h1, h2, h3 {
-    padding: px 0 20px 0;
-    margin: 10px 0 10px 0;
+h1, h2, h3 , p {
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
-p {
-    padding-top: 20px;
-}
     .battery-steps {
         margin-bottom: 20px;
         padding: 10px 25px;
         border-radius: 8px;
         background-color: rgb(242, 245, 222);
         box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
-}
-
-li,
-a {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
 }
 
 #youtube-video {
@@ -149,11 +155,16 @@ a {
     z-index: -1;  
 }
 
+footer {
+    background-color: rgb(134, 231, 184);
+}
+
 body {
     min-height: 100vh;
-    color: #000000;
+    color: #1b1212;
     font-family: 'Poppins', sans-serif;
     max-width: fit-content;
+    padding: 0 5px 0 5px
 }
 
 .icons {
@@ -168,6 +179,11 @@ body {
     cursor: pointer;
 }
 
+.icons:hover {
+   color:  rgb(76, 88, 197);
+   transition-delay: 0.4s;
+}
+
 .logo {
     cursor: pointer;
     margin-right: auto;
@@ -176,7 +192,7 @@ body {
     left: 25px;
     font-size: 40px;
     font-weight: 600;
-    color: rgb(49, 95, 52);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     letter-spacing: 5px;
     font-family: "Josefin Slab";
@@ -192,9 +208,12 @@ body {
 .nav-links li a {
     font-weight: 700px;
     font-size: 1.6rem;
-    font-weight: 700;
-    Color: rgb(247, 247, 247);
-    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    Color: rgb(0, 0, 0);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    font-family: "Josefin Slab";
+    
 }
 
 .nav-links li a:hover {
@@ -222,25 +241,27 @@ footer ul li {
 .social-networks {
     display: inline-block;
     text-align: left;
+    background-color: rgb(134, 231, 184);
+    padding-bottom: 70px;
 }
 
 .social-networks a {
     text-decoration: none;
-    padding: 10px;
-    background-color: antiquewhite;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 8px;
     
 }
 
 .social-networks a i {
-    font-size: 22px;
-    color: #000000;
+    font-size: 18px;
+    color: #124425;
     opacity: 0.9;
 }
 
 .social-networks a:hover {
-    background-color: black;
+    background-color: rgb(37, 44, 104);
     transition: 0.5s;
 }
 
@@ -292,10 +313,11 @@ footer ul li {
         width: 100%;
         height: 0;
         justify-content: space-between;
-        background-color: rgb(178, 255, 168);
+        background-color: rgb(134, 231, 184);
         overflow: hidden;
         color:#000000;
         transition: 0.4s ease;
+        border-radius: 8px;
     }
 
      .navbar a {
@@ -332,8 +354,8 @@ footer ul li {
         height: 140px;
     }
 
-    body {
-        padding: 0 25px 0 25px;
+    Main{
+        padding: 10px 10px 10px 10px;
     }
 
     .hero-image {
