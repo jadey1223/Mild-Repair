@@ -10,6 +10,14 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    color: #1b1212;
+    font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
+    padding: 0 5px 0 5px
+}
+
 .hero-image {
     margin-top: 90px;
     width: 100%;
@@ -166,12 +174,51 @@ footer {
     background-color: rgb(134, 231, 184);
 }
 
-body {
-    min-height: 100vh;
-    color: #1b1212;
-    font-family: 'Poppins', sans-serif;
-    max-width: fit-content;
-    padding: 0 5px 0 5px
+#accordian {
+    margin: 100px auto;
+    width: 600px;
+
+}
+
+#accordian li {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#accordian li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#accordian li label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #000000;
+}
+
+#accordian label + input[type="radio"] {
+    display: none;
+}
+
+#accordian .content {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+} 
+
+#accordian label + input[type="radio"]:checked + .content {
+    max-height: 400px;
+
 }
 
 .icons {
