@@ -99,6 +99,13 @@ body {
     border-radius: 8px;
 }
 
+
+#wrentch-image {
+    position: relative;
+    top: 19px;
+    left: 16px;
+}
+
 hr {
     border-top: 2px solid black;
     margin: 30px;
@@ -173,7 +180,8 @@ h1, h2, h3 , p {
     height: 72px;
     z-index: 0;
     background-color: rgb(255, 255, 255);
-    border-radius: 50%;  
+     
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header::before {
@@ -183,7 +191,7 @@ h1, h2, h3 , p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #4b52fa;
+    background-color: #ffffff;
     z-index: -1;  
 }
 
@@ -246,12 +254,12 @@ footer {
     padding-right: 25px;
     right: 25px;
     font-size: 2.3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
 .icons:hover {
-   color:  rgb(76, 88, 197);
+   color:  rgb(0, 0, 0);
    transition-delay: 0.4s;
 }
 
@@ -263,7 +271,7 @@ footer {
     left: 25px;
     font-size: 40px;
     font-weight: 600;
-    color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     letter-spacing: 5px;
     font-family: "Josefin Slab";
@@ -312,7 +320,7 @@ footer ul li {
 .social-networks {
     display: inline-block;
     text-align: left;
-    background-color: rgb(134, 231, 184);
+    
     padding-bottom: 70px;
 }
 
@@ -327,7 +335,7 @@ footer ul li {
 
 .social-networks a i {
     font-size: 18px;
-    color: #124425;
+    color: #070707;
     opacity: 0.9;
 }
 
