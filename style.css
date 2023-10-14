@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -64,6 +64,23 @@ body {
 
 #introduction {
     text-align: center;
+    margin-top: -130px;
+    font-family: "Anton";
+    color: #2c1e83;
+    font-size: 40px;
+}
+
+#logo-image {
+    margin-top: 75px;
+    width: 30%; 
+    height: 30%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+.logo-background {
+    background-color: #fb7464;
 }
 
 .img1 {
@@ -166,7 +183,7 @@ h1, h2, h3 , p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(134, 231, 184);
+    background-color: #4b52fa;
     z-index: -1;  
 }
 
@@ -246,7 +263,7 @@ footer {
     left: 25px;
     font-size: 40px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
     text-decoration: none;
     letter-spacing: 5px;
     font-family: "Josefin Slab";
@@ -342,7 +359,15 @@ footer ul li {
     
 }
 
+.sign-up-from {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0,0.3);
+    background: #fff;
+    Padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
 
+}
 
 
 
@@ -368,7 +393,7 @@ footer ul li {
         margin-top: 30px;
         height: 0;
         justify-content: space-between;
-        background-color: rgb(134, 231, 184);
+        background-color:   #4b52fa;
         overflow: hidden;
         color:#000000;
         transition: 0.4s ease;
