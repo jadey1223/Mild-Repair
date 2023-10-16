@@ -7,15 +7,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif
 }
 
 body {
     min-height: 100vh;
-    color: #1b1212;
+    color: #202025;
     font-family: 'Poppins', sans-serif;
     max-width: fit-content;
-    padding: 0 5px 0 5px
+
+    
 }
 
 .hero-image {
@@ -46,10 +47,6 @@ body {
     box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
 }
 
-.tax-insurance {
-   
-}
-
 .tax-insurance ul {
      background-color: #ccffe6;
      padding: 10px 25px 20px 20px;
@@ -57,18 +54,14 @@ body {
      box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
 }
 
-#intro  {
-    font-size: 25px;
-    margin-bottom: 32px;
-}
-
 #introduction {
     text-align: center;
-    margin-top: -130px;
+    margin-top: 81px;
     font-family: "Anton";
-    color: #2c1e83;
-    font-size: 40px;
-}
+    font-size: 400;
+    color: #7f9b99;
+    font-size: 35px;
+} 
 
 #logo-image {
     margin-top: 75px;
@@ -77,10 +70,6 @@ body {
     border-radius: 50%;
     top: 0;
     left: 0;
-}
-
-.logo-background {
-    background-color: #fb7464;
 }
 
 .img1 {
@@ -102,16 +91,21 @@ body {
 
 #wrentch-image {
     position: relative;
-    top: 19px;
+    top: 5px;
     left: 16px;
 }
 
 hr {
     border-top: 2px solid black;
     margin: 30px;
-    
 }
 
+#section1, #section2  {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    color: #000000;
+    font-size: 35px;
+}
 
 #battery {
     float: left;
@@ -144,10 +138,16 @@ hr {
     margin-right: 10px;
 }
 
-h1, h2, h3 , p {
-    margin-top: 10px;
+h1, h2, h3  {
+    margin-top: 30px;
     margin-bottom: 30px;
+    font-family: "Anton";
+    color:  rgb(71, 66, 66);
+}
 
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
     .battery-steps {
@@ -195,14 +195,15 @@ h1, h2, h3 , p {
     z-index: -1;  
 }
 
-footer {
-    background-color: rgb(134, 231, 184);
+#accordion-hd {
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 #accordian {
     margin: 100px auto;
-    width: 600px;
-
+    width: 100%;
 }
 
 #accordian li {
@@ -249,7 +250,7 @@ footer {
 .icons {
     position: absolute;
     float: right;
-    top: -50px;
+    top: -70px;
     margin: 20px 0 0 0;
     padding-right: 25px;
     right: 25px;
@@ -267,14 +268,14 @@ footer {
     cursor: pointer;
     margin-right: auto;
     position: relative;
-    top: 20px;
+    top: 7px;
     left: 25px;
     font-size: 40px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: rgb(71, 66, 66);
     text-decoration: none;
-    letter-spacing: 5px;
-    font-family: "Josefin Slab";
+    letter-spacing: 2px;
+    font-family: "Anton";
 }
 
 
@@ -287,11 +288,11 @@ footer {
 .nav-links li a {
     font-weight: 600;
     font-size: 1.6rem;
-    font-weight: 600;
-    Color: rgb(0, 0, 0);
+    font-weight: 400;
+    Color:  rgb(71, 66, 66);
     transition: all 0.4s ease 0s;
     text-decoration: none;
-    font-family: "Josefin Slab";
+    font-family: "Anton";
     
 }
 
@@ -340,7 +341,7 @@ footer ul li {
 }
 
 .social-networks a:hover {
-    background-color: rgb(37, 44, 104);
+    background-color: #d6dcf0;
     transition: 0.5s;
 }
 
@@ -367,6 +368,12 @@ footer ul li {
     
 }
 
+.dropdown1 {
+    background-color: #A38C8C;
+    width: 100%;
+    
+}
+
 .sign-up-from {
     width: 300px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0,0.3);
@@ -374,18 +381,9 @@ footer ul li {
     Padding: 20px;
     margin: 8% auto 0;
     text-align: center;
-
+    background-color: #d3d3d3;
+    border-radius: 8px;
 }
-
-
-
-/*media query(larger devices)*/
-@media screen and (max-width: 992px) {
-  
-
-}
-
-
 
 /*media query(smaller devices)*/
 @media screen and (max-width: 768px) {
@@ -401,13 +399,11 @@ footer ul li {
         margin-top: 30px;
         height: 0;
         justify-content: space-between;
-        background-color:   #4b52fa;
+        background-color:   #d6dcf0;
         overflow: hidden;
-        color:#000000;
         transition: 0.4s ease;
         border-radius: 8px;
         z-index: 100;
-        
     }
 
      .navbar a {
@@ -436,7 +432,7 @@ footer ul li {
     }
 
     #check:checked~.navbar {
-        height: 110px;
+        height: 135px;
     }
 
     Main{
@@ -448,3 +444,22 @@ footer ul li {
     }
 
 }
+
+/*media query(larger devices)*/
+@media screen and (min-width: 618px) {
+
+    .dropdown {
+       display: flex;
+       justify-content: flex-end;
+       margin-top: -50px;
+       position: relative;
+       right: 50px;
+    }
+
+    .dropdown li {
+        list-style: none;
+    }
+
+}
+
+
