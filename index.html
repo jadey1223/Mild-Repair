@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!--Add meta discription and keyword-->
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>The fundamental manual for maintaining and repairing cars.</title>
@@ -13,9 +13,9 @@
 <body>
 <header class="header">  
     
-      <img src="assets/images/technician.png" alt="Image of a hand holding a wrentch" id="wrentch-image">
+      <img src="assets/images/technician.png" alt="Image of a hand holding a wrentch" id="img-wrench">
 
-      <a href="index.html" class="logo">Mild Repair</a>
+      <a href="index.html" class="header-title">Mild Repair</a>
            
                     <div class="nav-links">
                     <input type="checkbox" value="1" id="check">
@@ -25,26 +25,28 @@
                             </label>
 
                                  <nav class="navbar">                     
-                                    <ul class="dropdown">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Tutorials</a></li>
-                                        <li><a href="#">Sign up</a></li>
-                                    </ul>
-                         </nav>           
+                                        <ul class="dropdown">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Tutorials</a></li>
+                                            <li><a href="#">Sign up</a></li>
+                                        </ul>
+                                </nav>           
                     </div>
       
-    
-</header>   
+</header>  
+
 
     <main>
 
+
         <h1 id="introduction">The fundamental manual for maintaining and repairing cars.</h1>
 
-<hr>
-       <div class="flex-box">
-           <div><h1 id="section1">5 things you should know when owning a vehicle </h1>
-            <section class="replace-tire">
-            <img src="tire-flat.png" id="flat-tire">
+        <section class="section--replacetr">
+            <h1> 5 things you should know when owning a vehicle </h1>
+            <div class="container">  
+            <div>
+             
+            <img src="assets/images/tire-flat.png" id="flat-tire" alt="A icon of a flat tire">
             <h1> 1. How to replace a flat tire.</h1>
 
 <!-- tip: make sure your tyre pressure is correct  -->
@@ -54,40 +56,41 @@
 
             <p>Changing a flat tyre involves several steps. Here’s a simplified guide:</p>
                 
-            <ul class="steps">
+            <ol>
                 <li><strong>Apply the parking brake:</strong> This ensures the vehicle doesn’t move</li>
                 <li><strong>Remove your spare tyre and the jack:</strong> These are usually located in the trunk of your car</li>
                 <li><strong>Loosen the lug nuts:</strong> Use the tyre iron from your trunk to do this</li>
                 <li><strong>Raise the vehicle with the jack:</strong> Once the vehicle is in the air, remove the nuts entirely</li>
                 <li><strong>Put the spare on:</strong> Make sure it’s fitted correctly</li>
                 <li><strong>Tighten the nuts by hand before lowering the vehicle:</strong> Once the vehicle is lowered, tighten the nuts fully</li>
-            </ul></div>
+            </ol></div>
   
             
             <div><iframe width="500" height="404" src="https://www.youtube.com/embed/Bq5To-ZH160" id="youtube-video" title="How To Change A Flat Tire Like A Boss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
         </div>    
         </section>
 
-        <section>
-            <img src="bolt.png" id="bolt">
-            <h1> 2. How to  Jump start your car.</h1>
+        <section class="section--battery-info">
+            <img src="assets/images/bolt.png" id="bolt" alt="A icon of a lighting bolt">
+                <h1> 2. How to  Jump start your car.</h1>
 
-            <p>However, if your battery has totally run out, it's likely that simply charging it won't work. Your next option is to try
-            a jump start. You'll need a jump starter pack or a set of jump leads and a 'donor' car to do this.</p>
+                <p>However, if your battery has totally run out, it's likely that simply charging it won't work. Your next option is to try
+                a jump start. You'll need a jump starter pack or a set of jump leads and a 'donor' car to do this.</p>
 
-                <img class="img1" src="jump_start.png" atl="A picture on how to jump start a car">
+                <img class="img-battery" src="assets/images/jump_start.png" atl="A picture on how to jump start a car">
           
 <br></br>
-            <h2>Get a second opinion.</h2>
+                <h2>Get a second opinion.</h2>
 
-            <p>If jump starting or recharging doesn't get your car going, you may have a more serious problem. If you can get your car
-            to the nearest Halfords, our in-store staff can check your battery for free and determine whether the issue is simply a
-            flat car battery, or whether it could be something else, such as a fault with the alternator.</p>
+                <p>If jump starting or recharging doesn't get your car going, you may have a more serious problem. If you can get your car
+                to the nearest Halfords, our in-store staff can check your battery for free and determine whether the issue is simply a
+                lat car battery, or whether it could be something else, such as a fault with the alternator.</p>
 
         </section>
-       <article>
-            <div class="battery">
-                    <div><img src="car-battery.png" id="battery"></div>
+        
+       <article class="battery--Replace">
+                <div class="battery">
+                    <div><img src="assets/images/car-battery.png" id="battery"></div>
                     <div><h1 class="battery-header">3. How to Replace your battery.</h1></div>
             </div>
 <!--A link to find out what battery your car would need.-->
@@ -109,29 +112,29 @@
 
             </article>
 
-        <section>
-                <img src="oil-can.png" id="oil-level">
+        <section class="section--oil-change">
+                <img src="assets/images/oil-can.png" id="oil-level">
                 <h1> 4. How to check your oil level.</h1>
 
                     <p>First, pull the dipstick out carefully and wipe any oil off it – this is so you can get an accurate reading. Then,
-                       replace it until you hear a click, and remove it again. You should now have a fresh level of oil to measure.</p>
+                    replace it until you hear a click, and remove it again. You should now have a fresh level of oil to measure.</p>
 
                     <p>Look at how far up the dipstick the oil reaches. The stick will feature two lines or dots a set distance which indicates
-                       the idea amount of oil – you want your oil level to sit somewhere within this gap. If the oil level sits below the
-                       lowest line, then you’ll need to top up straight away.</p>
+                    the idea amount of oil – you want your oil level to sit somewhere within this gap. If the oil level sits below the
+                    lowest line, then you’ll need to top up straight away.</p>
 
 <!-- make information bold -->
                     <p>For more information regarding fluids you should check reguarly click the link below.</p>
-                        <a href="https://www.autoadvisor.co.uk/car-fluids/" target="_blank" alt="A link to more information on liquids you should check reguarly in your car.">https://www.autoadvisor.co.uk/car-fluids/</a>
-                    <img class="img2" src="oil-level.jpg" alt="A picture of what the level of oil should be on the dipstick">
+                    <a href="https://www.autoadvisor.co.uk/car-fluids/" target="_blank" alt="A link to more information on liquids you should check reguarly in your car.">https://www.autoadvisor.co.uk/car-fluids/</a>
+                    <img class="img-oil" src="assets/images/oil-level.jpg" alt="A picture of what the level of oil should be on the dipstick">
 <!--A video on how to change your oil-->
         </section>
 
-        <section class="replace-bulbs"> 
-                <img src="lightbulb-on.png" id="light-bulb">
+        <section class="section--replace-bulbs"> 
+                <img src="assets/images/lightbulb-on.png" id="light-bulb">
                 <h1>5. Here are the general steps to replace a headlight bulb:</h1>
 
-                    <ol>
+                    <ol class="list--replace-bulb">
                         <li>Turn off the engine and open the hood of your car.</li>
                         <li>Locate the back of the headlight assembly and remove the power wires attached to the base of the bulb.</li>
                         <li>Release the locking mechanism that holds the bulb in place. Depending on your car’s make and model, this might be a metal clip, plastic catch, or screw cap.</li>
@@ -142,7 +145,7 @@
         </section>
 <hr>
 
-        <section class="tax-insurance">
+        <section class="section--tax-insurance">
 
                  <h1 id="section2">Things you should know about taxes and vehicle insurance</h1>
                  

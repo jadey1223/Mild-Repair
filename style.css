@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,161 +16,27 @@ body {
     color: #202025;
     font-family: 'Poppins', sans-serif;
     max-width: fit-content;
+    background-color: #f3f3f3;
+    line-height: 1.4;
 
+}    
     
-}
-
-.hero-image {
-    margin-top: 90px;
-    width: 100%;
-    align-self: center;
-    background-image: url("../images/hero.jpg");
-    padding: 0 15px 0 15px;
-}  
-
-.replace-tire {
-    margin: px 0 5px 25px; 
-}
-
-.replace-tire ul {
-    margin: 10px 0 10px 0;
-    padding: 10px 25px 20px 20px;
-    border-radius: 8px;
-    background-color: rgb(242, 245, 222);
-    box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
-}
-
-.replace-bulbs ol {
-    margin: 10px 0 10px 0;
-    padding: 10px 25px 20px 20px;
-    border-radius: 8px;
-    background-color: rgb(242, 245, 222);
-    box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
-}
-
-.tax-insurance ul {
-     background-color: #ccffe6;
-     padding: 10px 25px 20px 20px;
-     border-radius: 8px;
-     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
-}
-
-#introduction {
-    text-align: center;
-    margin-top: 81px;
+h1, 
+h2, 
+h3
+ {
+    margin-bottom: 2rem;
     font-family: "Anton";
-    font-size: 400;
-    color: #7f9b99;
-    font-size: 35px;
-} 
-
-#logo-image {
-    margin-top: 75px;
-    width: 30%; 
-    height: 30%;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-}
-
-.img1 {
-    width: 100%;
-    border-radius: 1.2%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    cursor: zoom-in;
-}
-
-.img2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    align-self: center;
-    border-radius: 8px;
-}
-
-
-#wrentch-image {
-    position: relative;
-    top: 5px;
-    left: 16px;
-}
-
-hr {
-    border-top: 2px solid black;
-    margin: 30px;
-}
-
-#section1, #section2  {
-    margin-top: 65px;
-    margin-bottom: 65px;
-    color: #000000;
-    font-size: 35px;
-}
-
-#battery {
-    float: left;
-    width: 35px;
-    margin-right: 10px;
-
-}
-
-#oil-level {
-    float: left;
-    width: 35px;
-    margin-right: 10px;
-}
-
-#bolt {
-    float: left;
-    width: 35px;
-    margin-right: 10px;
-}
-
-#flat-tire {
-    float: left;
-    width: 35px;
-    margin-right: 10px;
-}
-
-#light-bulb {
-    float: left;
-    width: 35px;
-    margin-right: 10px;
-}
-
-h1, h2, h3  {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: "Anton";
-    color:  rgb(71, 66, 66);
+    color:  rgb(0, 0, 0);
 }
 
 p {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+    margin-bottom: 2rem;
+}    
 
-    .battery-steps {
-        margin-bottom: 20px;
-        padding: 10px 25px;
-        border-radius: 8px;
-        background-color: rgb(242, 245, 222);
-        box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
-}
-
-#youtube-video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#Bulb-replaceyt {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+ul,
+ol {
+    list-style-position: inside;
 }
 
 .header {
@@ -177,11 +44,10 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 72px;
-    z-index: 0;
+    height: 4rem;
+    z-index: 1;
     background-color: rgb(255, 255, 255);
-     
-    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1rem 1px 20px 3px rgba(0, 0, 0, 0.2);
 }
 
 .header::before {
@@ -193,6 +59,114 @@ p {
     height: 100%;
     background-color: #ffffff;
     z-index: -1;  
+}
+
+hr {
+    border-top: 1.5px solid rgb(0, 0, 0);
+    margin: 1rem;
+}
+
+.header-title {
+    cursor: pointer;
+    margin-right: auto;
+    position: relative;
+    top: 0.1rem;
+    left: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: "Anton";
+}
+
+.section--replacetr,
+.section--battery-info,
+.section--oil-change,
+.section--replace-bulbs,
+.section--tax-insurance,
+.battery--Replace
+ {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgba(46, 53, 52, 0.5);
+}
+
+.tax-insurance ul {
+     background-color: #ccffe6;
+     padding: 10px 25px 20px 20px;
+     border-radius: 8px;
+     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+#introduction {
+    text-align: center;
+    margin-top: 7rem;
+    padding: 4rem;
+    position: relative;
+    top: -3rem;
+    font-family: "Anton";
+    font-size: 700;
+    color: #518672;
+    background-color: #DDE7C7;
+    font-size: 35px;
+    width: 100vw;
+} 
+
+.img-battery,
+.img-oil {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.replace-tire {
+        width: auto;
+}
+
+                        /*icons*/
+#oil-level,
+#light-bulb,
+#battery,
+#bolt,
+#flat-tire {
+    float: left;
+    margin-right: 10px;
+}
+
+#img-wrench {
+    position: relative;
+    left: 1rem;
+}
+
+                        /*icons*/
+
+.list--replace-bulb {
+    line-height: 2rem;
+    background-color: #9292b6;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+    .battery-steps {
+        margin-bottom: 20px;
+        padding: 10px 25px;
+        border-radius: 8px;
+        background-color: rgb(242, 245, 222);
+        box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
+}
+
+#youtube-video,
+#Bulb-replaceyt {
+    
+    max-width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 #accordion-hd {
@@ -244,74 +218,54 @@ p {
 
 #accordian label + input[type="radio"]:checked + .content {
     max-height: 400px;
-
 }
 
 .icons {
     position: absolute;
     float: right;
     top: -70px;
-    margin: 20px 0 0 0;
-    padding-right: 25px;
+    margin-top: 0.7rem;
+    padding-right: 1rem;
     right: 25px;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
+                                /*nav-bar*/
 .icons:hover {
    color:  rgb(0, 0, 0);
    transition-delay: 0.4s;
 }
 
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-    position: relative;
-    top: 7px;
-    left: 25px;
-    font-size: 40px;
-    font-weight: 500;
-    color: rgb(71, 66, 66);
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-family: "Anton";
-}
-
-
 .nav-links li {
     font-size: 18px;
-    margin: 1px;
+    margin-top: 0.5rem;
     gap: 1em;
+    list-style: none;
 }
 
 .nav-links li a {
     font-weight: 600;
     font-size: 1.6rem;
     font-weight: 400;
-    Color:  rgb(71, 66, 66);
+    Color:  #518672;
     transition: all 0.4s ease 0s;
     text-decoration: none;
     font-family: "Anton";
-    
 }
 
 .nav-links li a:hover {
-    color: rgb(255, 255, 255);
+    color: #77BFA3;
     transition: 0.5s ease;
 }
-
+                                /*nav-bar*/
 #check {
     display: none;
 }
 
-li {
-    list-style: list-item;
-    padding: 3px;
-}
-
 footer {
     background-color: #ffffff;
+    width: 100vw;
 }
 
 footer ul li {
@@ -356,26 +310,22 @@ footer ul li {
 }
 
 .social-networks {
-    
     width: 100%;
     padding: 70px 30px 20px;
     justify-content: center;
-    
 }
 
 .footerbottom  {
     text-align: center;
-    
 }
 
 .dropdown1 {
-    background-color: #A38C8C;
+    background-color: #362b2b;
     width: 100%;
-    
 }
 
 .sign-up-from {
-    width: 300px;
+    width: 100vw;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0,0.3);
     background: #fff;
     Padding: 20px;
@@ -386,20 +336,15 @@ footer ul li {
 }
 
 /*media query(smaller devices)*/
-@media screen and (max-width: 768px) {
-    .img {
-        width: 100%;
-        height: auto;
-        padding-bottom: 30px;
-    }
-
+@media screen and (min-width: 5rem) and (max-width: 40rem) {
+    
     .navbar { 
         position: absolute;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 0.5rem;
         height: 0;
         justify-content: space-between;
-        background-color:   #d6dcf0;
+        background-color: #BFD8BD;
         overflow: hidden;
         transition: 0.4s ease;
         border-radius: 8px;
@@ -411,8 +356,6 @@ footer ul li {
         overflow: hidden;
     }
      
-    
-  
     .icons {
         position: relative;
         right: 0;
@@ -421,7 +364,6 @@ footer ul li {
     .icons #close-icon {
         display: none;
     }
-
 
     #check:checked~.icons #menu-icon {
         display: none;
@@ -435,31 +377,30 @@ footer ul li {
         height: 135px;
     }
 
-    Main{
-        padding: 10px 10px 10px 10px;
-    }
-
-    .hero-image {
-        padding: 0 10px 0 10px;
-    }
-
 }
 
 /*media query(larger devices)*/
-@media screen and (min-width: 618px) {
+@media screen and (min-width: 650px) {
 
     .dropdown {
        display: flex;
        justify-content: flex-end;
+       gap: 1rem;
        margin-top: -50px;
        position: relative;
        right: 50px;
+       list-style: none;
     }
-
-    .dropdown li {
-        list-style: none;
-    }
-
 }
 
+@media screen and (min-width: 65rem) {
 
+.section--replacetr,
+.section--battery-info,
+.section--oil-change,
+.section--replace-bulbs,
+.section--tax-insurance,
+.battery--Replace {
+            width: 75vw;
+    }
+}
