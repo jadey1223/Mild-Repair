@@ -11,6 +11,10 @@
     font-family: "Poppins", sans-serif
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     min-height: 100vh;
     color: #202025;
@@ -18,7 +22,6 @@ body {
     max-width: fit-content;
     background-color: #f3f3f3;
     line-height: 1.4;
-
 }    
     
 h1, 
@@ -138,6 +141,10 @@ hr {
     margin-bottom: 1rem;
 }
 
+.hero-image {
+    width: vw;
+    height: 60rem;
+}
 
 
 .replace-tire {
@@ -149,7 +156,8 @@ hr {
 #light-bulb,
 #battery,
 #bolt,
-#flat-tire {
+#flat-tire,
+#contract-icon {
     float: left;
     margin-right: 10px;
 }
@@ -182,6 +190,11 @@ hr {
     max-width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+/*headings*/
+    #Tax-heading {
+        font-size: 3rem;
 }
 
 #accordion-hd {
@@ -352,7 +365,9 @@ footer ul li {
 
 .container--news-letter {
     text-align: center;
-    background-color: ;
+    background-color: #BFD8BD;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 /*media query(smaller devices)*/
@@ -394,7 +409,7 @@ footer ul li {
     }
 
     #check:checked~.navbar {
-        height: 135px;
+        height: 12rem;
     }
 
 }
