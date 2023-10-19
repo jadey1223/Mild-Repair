@@ -94,8 +94,22 @@ hr {
     box-shadow: 0px 5px 5px rgba(46, 53, 52, 0.5);
 }
 
-.tax-insurance ul {
-     background-color: #ccffe6;
+.section--replacetr ol {
+    background-color: #DDE7C7;
+    padding: 10px 25px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+.battery--Replace ol {
+    background-color: #DDE7C7;
+    padding: 10px 25px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+.section--tax-insurance ul {
+     background-color: #DDE7C7;
      padding: 10px 25px 20px 20px;
      border-radius: 8px;
      box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
@@ -114,6 +128,7 @@ hr {
     font-size: 35px;
     width: 100vw;
 } 
+
 
 .img-battery,
 .img-oil {
@@ -148,7 +163,7 @@ hr {
 
 .list--replace-bulb {
     line-height: 2rem;
-    background-color: #9292b6;
+    background-color:  #DDE7C7;
     border-radius: 8px;
     padding: 1rem;
 }
@@ -319,8 +334,8 @@ footer ul li {
     text-align: center;
 }
 
-.dropdown1 {
-    background-color: #362b2b;
+.faq {
+    background-color: #EDEEC9;
     width: 100%;
 }
 
@@ -333,6 +348,11 @@ footer ul li {
     text-align: center;
     background-color: #d3d3d3;
     border-radius: 8px;
+}
+
+.container--news-letter {
+    text-align: center;
+    background-color: ;
 }
 
 /*media query(smaller devices)*/
