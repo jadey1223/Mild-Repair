@@ -20,7 +20,7 @@ body {
     color: #202025;
     font-family: 'Poppins', sans-serif;
     max-width: fit-content;
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     line-height: 1.4;
 }    
     
@@ -140,12 +140,26 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-/* 
-.hero-image {
-   height: 75vh;
-   width: 100vw;
-} */
 
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(assets/images/hero-images.jpg);
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    color: #ffffff;
+    backdrop-filter: blur(8px) brightness(80%);
+}
 
 .replace-tire {
         width: auto;
@@ -428,7 +442,7 @@ footer ul li {
     #check:checked~.navbar {
         height: 12rem;
     }
-
+ 
 }
 
 /*media query(larger devices)*/
