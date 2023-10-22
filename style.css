@@ -20,7 +20,6 @@ body {
     color: #202025;
     font-family: 'Poppins', sans-serif;
     max-width: fit-content;
-    /* background-color: #f3f3f3; */
     line-height: 1.4;
 }    
     
@@ -30,7 +29,7 @@ h3
  {
     margin-bottom: 2rem;
     font-family: "Anton";
-    color:  rgb(0, 0, 0);
+    color:  rgb(39, 35, 35);
 }
 
 p {
@@ -77,7 +76,7 @@ hr {
     left: 1.5rem;
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: #77BFA3;
     text-decoration: none;
     letter-spacing: 2px;
     font-family: "Anton";
@@ -90,7 +89,7 @@ hr {
 .section--tax-insurance,
 .battery--Replace
  {
-    background-color: #fff;
+    background-color: #f3f3f3;
     padding: 2rem;
     margin: 3rem 0 3rem 0;
     border-radius: 8px;
@@ -209,12 +208,15 @@ hr {
 /*headings*/
     #Tax-heading {
         font-size: 3rem;
+        text-align: center;
+        font-weight: 300;
 }
 
 #accordion-hd {
     color: #000000;
     margin-top: 50px;
     margin-bottom: -50px;
+    text-align: center;
 }
 
 #accordian {
@@ -373,23 +375,50 @@ footer ul li {
     display: flex;
     flex-flow: column wrap;
 }
-
+                    /*sign-up-form*/
 .sign-up-from {
     width: 100vw;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0,0.3);
-    background: #fff;
     padding: 4rem 4rem;
     margin: 8% auto 0;
     text-align: center;
-    background-color: #d3d3d3;
-    border-radius: 8px;
+    background-color: #DDE7C7;
 }
 
+#form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+#heading-sign-up {
+    font-size: 3rem;
+}
+
+.signup-btn {
+    padding: 0.4rem;
+    font-weight: 700;
+    background-color: #98C9A3;
+    border-radius: 8px;
+    border-width: 1.5px;
+}
+
+.signup-btn:hover {
+    background-color: #77BFA3;
+    transition-duration: 1s;
+}
+                                /*sign-up-form*/
 .container--news-letter {
     text-align: center;
     background-color: #BFD8BD;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+#email-box {
+   width: 19rem;
+   height: 2rem;
+   border-radius: 8px;
+   border-width: 1px;
 }
 
 .container-faq {
@@ -399,6 +428,11 @@ footer ul li {
 /*media query(smaller devices)*/
 @media screen and (min-width: 5rem) and (max-width: 40rem) {
     
+    .hero-image {
+        background-position: center;
+    }
+
+
     .navbar { 
         position: absolute;
         width: 100%;
