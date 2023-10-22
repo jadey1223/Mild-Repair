@@ -140,11 +140,11 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
+/* 
 .hero-image {
-    width: vw;
-    height: 60rem;
-}
+   height: 75vh;
+   width: 100vw;
+} */
 
 
 .replace-tire {
@@ -251,14 +251,17 @@ hr {
 .icons {
     position: absolute;
     float: right;
-    top: -70px;
+    top: -60px;
     margin-top: 0.7rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     right: 25px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
+
+
                                 /*nav-bar*/
 .icons:hover {
    color:  rgb(0, 0, 0);
@@ -361,7 +364,7 @@ footer ul li {
     width: 100vw;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0,0.3);
     background: #fff;
-    Padding: 20px;
+    padding: 4rem 4rem;
     margin: 8% auto 0;
     text-align: center;
     background-color: #d3d3d3;
@@ -373,6 +376,10 @@ footer ul li {
     background-color: #BFD8BD;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.container-faq {
+    display: flex;
 }
 
 /*media query(smaller devices)*/
@@ -403,6 +410,11 @@ footer ul li {
 
     .icons #close-icon {
         display: none;
+    }
+
+    #close-icon {
+        position: relative;
+        top: 0.4rem;
     }
 
     #check:checked~.icons #menu-icon {
