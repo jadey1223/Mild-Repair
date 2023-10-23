@@ -39,6 +39,7 @@ p {
 ul,
 ol {
     list-style-position: inside;
+    margin-bottom: 1rem;
 }
 
 .header {
@@ -385,9 +386,9 @@ footer ul li {
 }
 
 #form {
-    background-color: #fff;
+    /* background-color: #fff;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1.5rem; */
 }
 
 #heading-sign-up {
@@ -480,7 +481,7 @@ footer ul li {
 }
 
 /*media query(larger devices)*/
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
 
     .dropdown {
        display: flex;
