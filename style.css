@@ -389,21 +389,45 @@ footer ul li {
 }
                     /*sign-up-form*/
 .sign-up-from {
-    width: 100vw;
-    padding: 4rem 4rem;
-    margin: 8% auto 0;
     text-align: center;
-    background-color: #DDE7C7;
+    color: #fff;
+    opacity: 1;
 }
 
+.sign-up-from {
+     background-image: url(assets/images/travel-map.jpg);
+     background-position: 60% 75%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     align-items: center;
+     justify-content: center;
+}
 
+.sign-up-from,
+ form {
+    background-color: #fafffd;
+    border-radius: 8px;
+    padding: 2rem;  
+}
+
+form {
+    opacity: 0.8;
+}
 
 #heading-sign-up {
-    font-size: 3rem;
+    color: #ffffff;
+}
+
+.fa-regular {
+    font-size: 1rem;
+}
+
+.input-box {
+    border-width: 1.5px;
 }
 
 .signup-btn {
-    padding: 0.4rem;
+    margin-top: 1rem;
     font-weight: 700;
     background-color: #98C9A3;
     border-radius: 8px;
@@ -447,7 +471,7 @@ footer ul li {
         margin-top: 0.5rem;
         height: 0;
         justify-content: space-between;
-        background-color: #BFD8BD;
+        background-color: #ffffff;
         overflow: hidden;
         transition: 0.4s ease;
         border-radius: 8px;
