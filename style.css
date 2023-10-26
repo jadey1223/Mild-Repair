@@ -88,14 +88,17 @@ hr {
 .section--battery-info,
 .section--oil-change,
 .section--replace-bulbs,
-.section--tax-insurance,
-.battery--Replace
- {
+.battery--Replace {
     background-color: #f3f3f3;
     padding: 2rem;
     margin: 3rem 0 3rem 0;
     border-radius: 8px;
     box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
+}
+.section--insurance,
+.section--tax {
+    padding: 2rem;
+    margin: 3rem 0 3rem 0;
 }
 
 .section--replacetr ol {
@@ -133,7 +136,6 @@ hr {
     width: 100vw;
 } 
 
-
 .img-battery,
 .img-oil {
     max-width: 100%;
@@ -146,12 +148,13 @@ hr {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url(assets/images/hero-image.jpg);
+    background-image: url(assets/images/pexels-cottonbro-studio-4482033.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    background-position: 50% 50%;
 }
 
 .hero-text h1 {
@@ -208,21 +211,28 @@ hr {
 .replace-btry-yt,
 .replace-tire,
 .Bulb-replaceyt {
-    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
 
 /*headings*/
-    #Tax-heading {
+    #Tax-heading {   
         font-size: 3rem;
         text-align: center;
         font-weight: 300;
         font-size: clamp(3rem, 5vw, 3rem);
 }
 
-
+ #insurance-heading {
+    margin-top: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(3rem, 5vw, 3rem);
+}
 
 #accordion-hd {
     color: #000000;
@@ -427,7 +437,7 @@ form {
 }
 
 .signup-btn {
-    margin-top: 1rem;
+    padding: 0.5rem;
     font-weight: 700;
     background-color: #98C9A3;
     border-radius: 8px;
@@ -446,16 +456,6 @@ form {
     padding-bottom: 4rem;
 }
 
-#email-box {
-   width: 19rem;
-   height: 2rem;
-   border-radius: 8px;
-   border-width: 1px;
-}
-
-.container-faq {
-    display: flex;
-}
 
 /*media query(smaller devices)*/
 @media screen and (min-width: 5rem) and (max-width: 40rem) {
