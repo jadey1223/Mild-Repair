@@ -115,8 +115,8 @@ hr {
     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
 }
 
-.section--tax-insurance ul {
-     background-color: #DDE7C7;
+#tax-list {
+     background-color: #bfd8bd;
      padding: 10px 25px 20px 20px;
      border-radius: 8px;
      box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
@@ -370,7 +370,7 @@ footer ul li {
 }
 
 .social-networks a:hover {
-    background-color: #d6dcf0;
+    background-color: #498d47;
     transition: 0.5s;
 }
 
@@ -402,12 +402,16 @@ footer ul li {
 .faq-container {
     display: flex;
     flex-flow: column wrap;
+  
 }
                     /*sign-up-form*/
 .sign-up-from {
     text-align: center;
     color: #fff;
     opacity: 1;
+    position: relative;
+    top: 3rem;
+    
 }
 
 .sign-up-from {
@@ -462,15 +466,59 @@ form {
     padding-bottom: 4rem;
 }
 
+.map-info,
+h2,
+p {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-left: 0.5rem;
 
+}
+
+.map-info {
+    border: black;
+}
+.map {
+    aspect-ratio: 16 / 9;
+    width: 30rem;
+}
+#map--heading{
+    text-align: center;
+}
+
+.map--container {
+    background-color: #edeec9;
+    margin-top: 10rem;
+    position: relative;
+    top: 2rem;
+    padding-top: 1rem;
+}
+
+#mobile {
+    display: flex;
+}
+
+#email {
+    display: flex;
+}
+
+hr {
+ position: relative;
+ left: 25%;
+ border-width: 0.5;
+ width: 50vw;
+ top: 3.5rem;
+}
 /*media query(smaller devices)*/
-@media screen and (min-width: 5rem) and (max-width: 40rem) {
+@media screen and (min-width: 5rem) and (max-width: 46rem) {
     
     .hero-image {
         background-position: center;
     }
 
-
+    #map {
+        
+    }
     .navbar { 
         position: absolute;
         width: 100%;
@@ -487,6 +535,8 @@ form {
      .navbar a {
         padding-left: 20px;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
     }
      
     .icons {
@@ -518,7 +568,7 @@ form {
 }
 
 /*media query(larger devices)*/
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 741px) {
 
     .dropdown {
        display: flex;
@@ -529,6 +579,17 @@ form {
        right: 50px;
        list-style: none;
     }
+    .map--container {
+        display: flex;
+        justify-content: space-evenly;
+     
+    }
+
+    .map {
+        position: relative;
+        top: 9rem;
+        
+
 }
 
 @media screen and (min-width: 65rem) {
@@ -545,10 +606,6 @@ form {
             
     }
 
-.replace-btry-yt,
-.replace-tire,
-.Bulb-replaceyt {
-    text-align: center;
-}
+    
 
 }
