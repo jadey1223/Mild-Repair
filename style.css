@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif
+    font-family: "Roboto Condensed ", sans-serif
 }
 
 html {
@@ -18,7 +15,7 @@ html {
 body {
     min-height: 100vh;
     color: #202025;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Roboto Condensed ", sans-serif;
     max-width: fit-content;
     line-height: 1.4;
 }    
@@ -28,8 +25,8 @@ h2,
 h3
  {
     margin-bottom: 2rem;
-    font-family: "Anton";
-    color:  rgb(39, 35, 35);
+    font-family: 'poppins', sans-serif;
+    color:  rgb(56, 53, 53);
     font-size: clamp(2rem, 5vw, 3rem);
 }
 
@@ -52,6 +49,7 @@ ol {
     z-index: 1;
     background-color: rgb(255, 255, 255);
     box-shadow: 1rem 1px 20px 3px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto Condensed" , sans-serif ;
 }
 
 .header::before {
@@ -81,20 +79,21 @@ hr {
     color: #77BFA3;
     text-decoration: none;
     letter-spacing: 2px;
-    font-family: "Anton";
 }
+
 
 .section--replacetr,
 .section--battery-info,
 .section--oil-change,
 .section--replace-bulbs,
 .battery--Replace {
-    background-color: #f3f3f3;
+    background-color: #fdf8f8;
     padding: 2rem;
     margin: 3rem 0 3rem 0;
     border-radius: 8px;
     box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
 }
+
 .section--insurance,
 .section--tax {
     padding: 2rem;
@@ -177,10 +176,12 @@ hr {
                         /*icons*/
 #oil-level,
 #light-bulb,
-
 #bolt,
 #flat-tire,
-#contract-icon {
+#contract-icon,
+#battery {
+     position: relative;
+    top: 1.3rem;
     float: left;
     margin-right: 1rem;
 }
@@ -188,13 +189,6 @@ hr {
 #img-wrench {
     position: relative;
     left: 1rem;
-}
-
-#battery {
-    position: relative;
-    top: 0.25rem;
-    float: left;
-    margin-right: 1rem;
 }
 
                         /*icons*/
@@ -326,7 +320,7 @@ hr {
     Color:  #518672;
     transition: all 0.4s ease 0s;
     text-decoration: none;
-    font-family: "Anton";
+    font-family: "Roboto Condensed ", sans-serif;
 }
 
 .nav-links li a:hover {
@@ -474,19 +468,24 @@ p {
     margin-left: 0.5rem;
 
 }
+#map {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
 
 .map-info {
-    border: black;
+    border: black
 }
-.map {
-    aspect-ratio: 16 / 9;
-    width: 30rem;
-}
+
 #map--heading{
     text-align: center;
 }
 
-.map--container {
+#pin-drop {
+    display: flex;
+}
+
+.map-container-info {
     background-color: #edeec9;
     margin-top: 10rem;
     position: relative;
@@ -509,6 +508,13 @@ hr {
  width: 50vw;
  top: 3.5rem;
 }
+
+.material-symbols-outlined {
+    position: relative;
+    top: 0.7rem;
+}
+
+
 /*media query(smaller devices)*/
 @media screen and (min-width: 5rem) and (max-width: 46rem) {
     
@@ -516,9 +522,7 @@ hr {
         background-position: center;
     }
 
-    #map {
-        
-    }
+
     .navbar { 
         position: absolute;
         width: 100%;
@@ -530,6 +534,7 @@ hr {
         transition: 0.4s ease;
         border-radius: 8px;
         z-index: 100;
+        font-family: "oswald", sans-serif;
     }
 
      .navbar a {
@@ -539,6 +544,9 @@ hr {
         justify-content: center;
     }
      
+    .dropdown a {
+        font-family: "Oswlad";
+    }
     .icons {
         position: relative;
         right: 0;
@@ -568,7 +576,7 @@ hr {
 }
 
 /*media query(larger devices)*/
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 735px) {
 
     .dropdown {
        display: flex;
@@ -579,18 +587,23 @@ hr {
        right: 50px;
        list-style: none;
     }
-    .map--container {
+    .map-container-info {
         display: flex;
         justify-content: space-evenly;
      
     }
 
-    .map {
+    #map {
         position: relative;
         top: 9rem;
+        aspect-ratio: 16 / 9;
+        width: 35rem;
+    }
         
 
 }
+
+
 
 @media screen and (min-width: 65rem) {
 
@@ -601,11 +614,15 @@ hr {
 .section--tax-insurance,
 .battery--Replace {
             width: 75vw;
-            /* margin-left: 12.5%;
-            margin-right: 12.5%; */
+            margin-left: 12.5%;}
+            
             
     }
 
-    
+    @media screen and (min-width: 741px) and (max-width:968px)  {  
+        #map {
+            width: 25rem;
+        }
+    }  
 
-}
+
