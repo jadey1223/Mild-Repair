@@ -87,7 +87,7 @@ hr {
 .section--oil-change,
 .section--replace-bulbs,
 .battery--Replace {
-    background-color: #fdf8f8;
+    background-color: #ffffff;
     padding: 2rem;
     margin: 3rem 0 3rem 0;
     border-radius: 8px;
@@ -244,6 +244,7 @@ hr {
 #accordian {
     margin: 100px auto;
     width: 100%;
+    font-size: 1.5rem;
 }
 
 #accordian li {
@@ -259,19 +260,20 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
-    font-weight: 500;
     cursor: pointer;
 }
 
 #accordian li label span {
     transform: rotate(90deg);
-    font-size: 22px;
     color: #000000;
 }
 
 #accordian label + input[type="radio"] {
     display: none;
+}
+
+#accordian p {
+    font-size: 1rem;
 }
 
 #accordian .content {
@@ -285,6 +287,7 @@ hr {
 #accordian label + input[type="radio"]:checked + .content {
     max-height: 400px;
 }
+
 
 .icons {
     position: absolute;
@@ -595,7 +598,7 @@ hr {
 
     #map {
         position: relative;
-        top: 9rem;
+        top: 12rem;
         aspect-ratio: 16 / 9;
         width: 35rem;
     }
