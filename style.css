@@ -88,7 +88,7 @@ hr {
 .section--replace-bulbs,
 .battery--Replace {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 1rem;
     margin: 3rem 0 3rem 0;
     border-radius: 8px;
     box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
@@ -227,11 +227,16 @@ hr {
 }
 
  #insurance-heading {
-    margin-top: 6rem;
     font-size: 3rem;
     text-align: center;
     font-weight: 300;
     font-size: clamp(3rem, 5vw, 3rem);
+}
+#insurance-list {
+        background-color: #77BFA3;
+        padding: 10px 25px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
 }
 
 #accordion-hd {
@@ -288,7 +293,20 @@ hr {
     max-height: 400px;
 }
 
+.faq {
+    background-color: #DDE7C7;
+    width: 100%;
+    margin-bottom: -7rem;
+}
 
+#img-faq {
+    position: relative;
+    top: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .icons {
     position: absolute;
     float: right;
@@ -391,23 +409,46 @@ footer ul li {
     text-align: center;
 }
 
-.faq {
-    background-color: #EDEEC9;
-    width: 100%;
-}
 
-.faq-container {
-    display: flex;
-    flex-flow: column wrap;
-  
-}
+
                     /*sign-up-form*/
-.sign-up-from {
+ .sign-up-tax {
+    background-image: url(assets/images/travel-map.jpg);
+    background-position: 60% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #fff;
     opacity: 1;
+    background-color: #fafffd;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: -2rem; 
+}       
+
+.sign-up-insurance {
+    background-image: url(assets/images/travel-map.jpg);
+    background-position: 60% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    background-color: #fafffd;
+    border-radius: 8px;
+    padding: 2rem; 
+    margin-bottom: -2rem;
+}
+
+.sign-up-from {
+    text-align: center;
     position: relative;
     top: 3rem;
+    margin-bottom: -7rem;
     
 }
 
@@ -422,21 +463,22 @@ footer ul li {
 
 .sign-up-from,
  form {
-    background-color: #fafffd;
+    backdrop-filter: blur(0.5px) brightness(70%) contrast(50%);
     border-radius: 8px;
     padding: 2rem;  
 }
 
-form {
-    opacity: 0.8;
+.fa-regular {
+    color: #fff;
+}
+
+#newsletter {
+    font-size: 1rem;
+    color: #000000;
 }
 
 #heading-sign-up {
     color: #ffffff;
-}
-
-.fa-regular {
-    font-size: 1rem;
 }
 
 .input-box {
@@ -454,6 +496,12 @@ form {
 .signup-btn:hover {
     background-color: #77BFA3;
     transition-duration: 1s;
+}
+
+.signup-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }
                                 /*sign-up-form*/
 .container--news-letter {
@@ -474,14 +522,12 @@ p {
 #map {
     aspect-ratio: 16 / 9;
     width: 100%;
-}
-
-.map-info {
-    border: black
+    border-radius: 8px;
 }
 
 #map--heading{
     text-align: center;
+    color: #000000;
 }
 
 #pin-drop {
@@ -525,6 +571,9 @@ hr {
         background-position: center;
     }
 
+    #img-faq {
+        width: 75%;
+    }
 
     .navbar { 
         position: absolute;
@@ -617,7 +666,20 @@ hr {
 .section--tax-insurance,
 .battery--Replace {
             width: 75vw;
-            margin-left: 12.5%;}
+            margin-left: 12.5%;
+            padding: 2rem;
+            margin: 3rem 0 3rem 0;
+            border-radius: 8px;
+            box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
+            position: relative;
+            left: 12.5%;
+}
+
+.section--insurance,
+.section--tax {
+    width: 75vw;
+    margin-left: 12.5%;
+}
             
             
     }
@@ -628,4 +690,23 @@ hr {
         }
     }  
 
+    @media screen and (min-width:5rem) and (max-width: 528px) {
 
+    .signup-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;
+        
+    }
+
+    .input-box {
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .fa-regular {
+        display: flex;
+        flex-direction: column;
+    }
+}
