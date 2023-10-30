@@ -72,7 +72,7 @@ hr {
     cursor: pointer;
     margin-right: auto;
     position: relative;
-    top: 0.1rem;
+    top: 0.5rem;
     left: 1.5rem;
     font-size: 2rem;    
     font-weight: 700;
@@ -309,7 +309,7 @@ hr {
 .icons {
     position: absolute;
     float: right;
-    top: -60px;
+    top: -3rem;
     margin-top: 0.7rem;
     padding-right: 2rem;
     right: 25px;
@@ -634,7 +634,7 @@ hr {
        display: flex;
        justify-content: flex-end;
        gap: 1rem;
-       margin-top: -50px;
+       margin-top: -2.5rem;
        position: relative;
        right: 50px;
        list-style: none;
