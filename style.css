@@ -86,11 +86,7 @@ hr {
 .section--oil-change,
 .section--replace-bulbs,
 .battery--Replace {
-    background-color: #ffffff;
     padding: 1rem;
-    margin: 3rem 0 3rem 0;
-    border-radius: 8px;
-    box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
 }
 
 .section--insurance,
@@ -180,7 +176,7 @@ hr {
 #contract-icon,
 #battery {
      position: relative;
-    top: 1.3rem;
+    top: 0.4rem;
     float: left;
     margin-right: 1rem;
 }
@@ -239,7 +235,7 @@ hr {
 }
 
 #accordion-hd {
-    color: #000000;
+    color: #6c8574;
     margin-top: 50px;
     margin-bottom: -50px;
     text-align: center;
@@ -563,7 +559,6 @@ hr {
     top: 0.7rem;
 }
 
-
 /*media query(smaller devices)*/
 @media screen and (min-width: 5rem) and (max-width: 46rem) {
     
@@ -655,8 +650,6 @@ hr {
 
 }
 
-
-
 @media screen and (min-width: 65rem) {
 
 .section--replacetr,
@@ -666,11 +659,6 @@ hr {
 .section--tax-insurance,
 .battery--Replace {
             width: 75vw;
-            margin-left: 12.5%;
-            padding: 2rem;
-            margin: 3rem 0 3rem 0;
-            border-radius: 8px;
-            box-shadow: 1px 5px 5px rgba(80, 73, 73, 0.5);
             position: relative;
             left: 12.5%;
 }
@@ -679,9 +667,7 @@ hr {
 .section--tax {
     width: 75vw;
     margin-left: 12.5%;
-}
-            
-            
+}         
     }
 
     @media screen and (min-width: 741px) and (max-width:968px)  {  
