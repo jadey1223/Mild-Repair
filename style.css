@@ -123,7 +123,6 @@ hr {
     position: relative;
     top: -3rem;
     font-family: "Anton";
-    font-size: 700;
     color: #518672;
     background-color: #DDE7C7;
     font-size: 35px;
@@ -549,7 +548,6 @@ p {
 hr {
  position: relative;
  left: 25%;
- border-width: 0.5;
  width: 50vw;
  top: 3.5rem;
 }

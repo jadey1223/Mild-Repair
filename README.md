@@ -65,14 +65,21 @@ features
 
     - 
 
- Testing
- -
+ ## Testing
+ 
 
+* ### Validator testing 
 
+* HTML   
+    - No errors were returned when passing through the official W3C validator.
 
-* Validator testing
-    
-    -
+* CSS
+    - No errors were found when passing through the official (Jigsaw) validator.
+
+### Unfixed Code
+
+- 
+
 
 
 
