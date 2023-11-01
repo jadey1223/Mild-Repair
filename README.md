@@ -1,4 +1,10 @@
-#The fundamental manual for maintaining and repairing cars.
+# Mild Repair
+
+This website is intended to target new vehicle owners who may not have much experience with vehicle maintenance and repair. The website will be useful to the target audience by providing them with the knowledge and skills they need to perform basic repairs on their own, which can save them time and money in the long run. Additionally, the website will provide information on tax and insurance, which can help new vehicle owners make informed decisions about their vehicle ownership.
+
+![A responsive website design](assets/images/am-i-responsive.png)
+
+[View live website here](https://jadey1223.github.io/The-fundamental-manual-for-maintaining-and-repairing-cars/).
 
 features
 -
@@ -25,15 +31,15 @@ features
     repairs and maintence on a vehicle.
     -  In this section, the user will be given a step-by-step guide with supporting images and videos to help build their confidence in maintaining their vehicle accordingly.
 
-    ![A image of my 1st repair section](assets/images/Repair-car.png)
+    <!-- ![A image of my 1st repair section](assets/images/Repair-car.png) -->
     
 * Buying a secondhand car section
 
     - This section offers a set of questions that one should be asking themself before purchasing a vehicle.
     - In this section these specific question would advise you if the vehicle is worth purchasing or not.
     - This section also acts as a bonus feature to the website.
-
-    ![A image of my buy a second hand guide](assets/images/Buying-secondhand.png)
+<!-- 
+    ![A image of my buy a second hand guide](assets/images/Buying-secondhand.png) -->
 
 * Sign up section
 
@@ -48,7 +54,27 @@ features
 
     ![A image of a contact section](assets/images/contact-info.png)
 
-* 
+*  Footer
+
+    - The footer section contains connections to the appropriate social networking sites for mild repairs. The links will open in a new tab for the user's convenience.
+    - The user benefits from the footer as it encourages them to stay in touch via social media.
+
+    ![A image of my footer section](assets/images/footer.png)
+
+* features left to implement
+
+    - 
+
+ Testing
+ -
+
+
+
+* Validator testing
+    
+    -
+
+
 
 
 

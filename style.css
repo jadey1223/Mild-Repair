@@ -360,8 +360,8 @@ footer ul li {
 .social-networks {
     display: inline-block;
     text-align: left;
-    
-    padding-bottom: 70px;
+    background-color: #b7ddce;
+    margin-top: 3rem;
 }
 
 .social-networks a {
@@ -396,7 +396,7 @@ footer ul li {
 
 .social-networks {
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 2rem;
     justify-content: center;
 }
 
