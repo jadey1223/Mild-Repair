@@ -100,11 +100,19 @@ features
 
 * ### Content
 
-    -
+     Newsletter section
+![Newsletter](https://www.youtube.com/watch?v=hjMKP9Kqkh8)
+
+     Footer section
+![footer links to social media](https://www.youtube.com/watch?v=nkZz9DOBzBI)
+
+     Responsive header section
+![Responsive Navigation menu](https://www.youtube.com/watch?v=yE9DLIoDwCg)
 
 * ### Media 
 
-    -
+    - Media from pixels.
+
 
 
 
