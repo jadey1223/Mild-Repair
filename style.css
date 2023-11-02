@@ -167,25 +167,23 @@ hr {
         width: auto;
 }
 
-                        /*icons*/
+ /*icons*/
 #oil-level,
 #light-bulb,
 #bolt,
 #flat-tire,
 #contract-icon,
-#battery {
+#battery,
+#img-wrench {
      position: relative;
-    top: 0.4rem;
+    top: 0.6rem;
     float: left;
     margin-right: 1rem;
 }
 
-#img-wrench {
-    position: relative;
-    left: 1rem;
-}
 
-                        /*icons*/
+
+ /*icons*/
 
 .list--replace-bulb {
     line-height: 2rem;
@@ -287,20 +285,7 @@ hr {
     max-height: 400px;
 }
 
-.faq {
-    background-color: #DDE7C7;
-    width: 100%;
-    margin-bottom: -7rem;
-}
 
-#img-faq {
-    position: relative;
-    top: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 .icons {
     position: absolute;
     float: right;
@@ -379,7 +364,7 @@ footer ul li {
 }
 
 .social-networks a:hover {
-    background-color: #498d47;
+    background-color: #98C9A3;
     transition: 0.5s;
 }
 
@@ -389,17 +374,15 @@ footer ul li {
 }
 
 
-.div1{
-    text-align: center;
-}
-
 .social-networks {
     width: 100%;
     padding: 2rem;
     justify-content: center;
 }
 
-.footerbottom  {
+.footerbottom p {
+    text-align: left;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -462,7 +445,7 @@ footer ul li {
     padding: 2rem;  
 }
 
-.fa-regular {
+.fa-envelope {
     color: #fff;
     font-size: 1rem;
 }
