@@ -70,16 +70,41 @@ features
 
 * ### Validator testing 
 
+    - I have tested my websites on Chrome, Edge , firefox, Safari and confirm that it works.
+
+    - Mobile viewports have a hamburger menu that provides the navigation link to my other pages. This is utilized to take up less surface area on smaller devices.
+
+    - For larger devices, the contact section breakpoint divides the map and contact information into two sections that are positioned next to each other to maximize screen real estate.
+
+    - Viewport for smaller devices at the sign-up area Reduce the amount of space by moving the email and name sections underneath one another.
+
 * HTML   
     - No errors were returned when passing through the official W3C validator.
 
 * CSS
     - No errors were found when passing through the official (Jigsaw) validator.
 
-### Unfixed Code
+ * ### Accessibilty
 
-- 
+    - I confirm that the colors and font are easy to read and accessible by running it through lighthouse in dev tools.
 
+    - Potential reasons why performance score is so low because of large image files and file formats and embedded links like videos.
+
+    ![lighthouse score](assets/images/ligthhouse.png)
+
+### Unfixed bugs
+
+- There is no unfixed bugs in my website.
+
+## Credit
+
+* ### Content
+
+    -
+
+* ### Media 
+
+    -
 
 
 
