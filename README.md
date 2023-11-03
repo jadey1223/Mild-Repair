@@ -100,10 +100,12 @@ features
 
 * ### Content
 
-    -\
+    -
+
 * ### Media 
 
-    -
+    - Media from pixels.
+
 
 
 
