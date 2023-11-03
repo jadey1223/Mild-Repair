@@ -100,8 +100,7 @@ features
 
 * ### Content
 
-    -
-
+    -\
 * ### Media 
 
     -
