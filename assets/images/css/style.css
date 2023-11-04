@@ -63,11 +63,6 @@ ol {
     z-index: -1;  
 }
 
-hr {
-    border-top: 1.5px solid rgb(0, 0, 0);
-    margin: 1rem;
-}
-
 .header-title {
     cursor: pointer;
     margin-right: auto;
@@ -113,13 +108,6 @@ hr {
 
 /* End sections*/
 
-
-#tax-list {
-     background-color: #bfd8bd;
-     padding: 10px 25px 20px 20px;
-     border-radius: 8px;
-     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
-}
 
 #introduction {
     text-align: center;
@@ -229,6 +217,13 @@ hr {
 
     #insurance-list {
         background-color: #77BFA3;
+        padding: 10px 25px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+    #tax-list {
+        background-color: #bfd8bd;
         padding: 10px 25px 20px 20px;
         border-radius: 8px;
         box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
@@ -373,7 +368,7 @@ footer ul li {
 /*Start sign-up-form*/
 
  .sign-up-tax {
-    background-image: url(assets/images/travel-map.jpg);
+    background-image: url(../travel-map.jpg);
     background-position: 60% 75%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,7 +384,7 @@ footer ul li {
 }       
 
 .sign-up-insurance {
-    background-image: url(assets/images/travel-map.jpg);
+    background-image: url(../travel-map.jpg);
     background-position: 60% 75%;
     background-repeat: no-repeat;
     background-size: cover;
