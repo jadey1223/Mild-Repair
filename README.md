@@ -72,11 +72,19 @@ features
 
     - I have tested my websites on Chrome, Edge , firefox, Safari and confirm that it works.
 
+    - This project looks and fuctions the way i want it to with responsive design for all viewport sizes by using the devtools device tool bar.
+
+    - I confirm that my header section is clear and understandable with working navigaton links to all my different pages in my website.
+
     - Mobile viewports have a hamburger menu that provides the navigation link to my other pages. This is utilized to take up less surface area on smaller devices.
 
     - For larger devices, the contact section breakpoint divides the map and contact information into two sections that are positioned next to each other to maximize screen real estate.
 
     - Viewport for smaller devices at the sign-up area Reduce the amount of space by moving the email and name sections underneath one another.
+
+    - All external links open in a new tab.
+
+    - I can confirm that the forms on my pages are linked to [code institute Form dump](https://formdump.codeinstitute.net).
 
 * HTML   
     - No errors were returned when passing through the official W3C validator.
@@ -100,13 +108,39 @@ features
 
 * ### Content
 
-    -
+    - Favicon was taken from [icon-icons](https://icon-icons.com/download/151981/PNG/32/).
+
+    - Home page sections content was taken from different websites all links with be below.
+        - [how to Replace tire.](https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips)
+        - [how to Jump starting a vehicle.](https://www.towtruckservicedc.com/how-jump-start-car-step-by-step-guide/)
+        - [How to replace a battery.](https://www.driving.co.uk/car-clinic/haynes-how-to/how-change-car-battery/)
+        - [How to check your oil level.](https://www.halfords.com/motoring/how-to-guides/check-and-top-up-your-oil-level-guide.html)
+        - [How to replace lightbulb.](https://www.halfords.com/motoring/how-to-guides/how-to-change-a-car-headlight-bulb.html)
+
+    - Insurance section content was taken from [Rac](https://www.rac.co.uk/insurance/car-insurance/guides/what-is-car-insurance)
+    
+    - Tax section content was taken from [ageco](https://www.ageco.co.uk/useful-articles/car/everything-you-need-to-know-about-vehicle-tax-and-insurance/#:~:text=You%20can%20tax%20your%20vehicle,recent%20DVLA%20reminder%20letter%20)
+
+    - Icons was taken from [flaticon](https://www.rac.co.uk/insurance/car-insurance/guides/what-is-car-insurance).
+
+    - [W3C school](https://www.w3schools.com/) was used consecutively.
+
+    - Newsletter section
+[Newsletter](https://www.youtube.com/watch?v=hjMKP9Kqkh8)
+
+    - Footer section
+[footer links to social media](https://www.youtube.com/watch?v=nkZz9DOBzBI)
+
+    - Responsive header section
+[Responsive Navigation menu](https://www.youtube.com/watch?v=yE9DLIoDwCg)
+
 
 * ### Media 
 
-    - Media from pixels.
-
-
+    - Tax and insurance section have royalty free images from [pexels](https://www.pexels.com/).
+    - Home page 
+        - jump start image was used from [honkforhelp](https://www.honkforhelp.com/explore/2016/printable-jumpstart-guide/)
+        - Oil level image was used from [autodeal](https://www.autodeal.com.ph/articles/car-features/how-check-your-cars-oil-level)
 
 
 
