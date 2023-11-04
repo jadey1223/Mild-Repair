@@ -518,6 +518,7 @@ p {
     position: relative;
     top: 2rem;
     padding-top: 1rem;
+    border-radius: 8px;
 }
 
 #mobile {

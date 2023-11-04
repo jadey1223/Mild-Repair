@@ -6,10 +6,9 @@ This website is intended to target new vehicle owners who may not have much expe
 
 [View live website here](https://jadey1223.github.io/The-fundamental-manual-for-maintaining-and-repairing-cars/).
 
-features
--
+## features
 
-* Naviagtion bar
+* ### Naviagtion bar
  
     - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Tax, Insurance and Sign Up page and is identical in each page to allow for easy navigation.
 
@@ -17,7 +16,7 @@ features
     
 ![A image of my header section](assets/images/header-screenshot.png)
 
-* The landing page image
+* ### The landing page image
     
     - The landing page features a background image with text overlay to show the user that tools are engaged in the context of providing auto maintenance assistance.
 
@@ -25,36 +24,26 @@ features
 
     ![A image of my header introduction](assets/images/landing-page.PNG)
 
-* Repair guide section
+* ### Repair guide section
     
     -  This section offers a general overview on 
     repairs and maintence on a vehicle.
     -  In this section, the user will be given a step-by-step guide with supporting images and videos to help build their confidence in maintaining their vehicle accordingly.
 
-    <!-- ![A image of my 1st repair section](assets/images/Repair-car.png) -->
-    
-* Buying a secondhand car section
-
-    - This section offers a set of questions that one should be asking themself before purchasing a vehicle.
-    - In this section these specific question would advise you if the vehicle is worth purchasing or not.
-    - This section also acts as a bonus feature to the website.
-<!-- 
-    ![A image of my buy a second hand guide](assets/images/Buying-secondhand.png) -->
-
-* Sign up section
+* ### Sign up section
 
     - In this section, I provide a newsletter to any reader who is interested in hearing about the newest developments in the automobile sector.
 
-    ![A image of my sign up section](assets/images/Sign-up-section.png)
+    ![A image of my sign up section](assets/images/sign-up-section.png)
 
-* Contact Section
+* ### Contact Section
     
     - In this section we offer once a month seminar at a specific time and day. We also have intergrated a map so that visitors may find us and our address with ease.
     - We also have Alternative ways of communication via a telephone number or a email address.
 
     ![A image of a contact section](assets/images/contact-info.png)
 
-*  Footer
+* ### Footer
 
     - The footer section contains connections to the appropriate social networking sites for mild repairs. The links will open in a new tab for the user's convenience.
     - The user benefits from the footer as it encourages them to stay in touch via social media.
@@ -63,7 +52,35 @@ features
 
 * features left to implement
 
-    - 
+    - No features left to implement.
+
+# Technologies Used
+
+### Main Languages Used
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+
+    - Google fonts was used to import the fonts "Roboto Condense" and Sans-serif into the style.css file. These fonts were used throughout the project.
+
+* [Font Awesome](https://fontawesome.com/)
+
+    - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+
+* [GitHub](https://github.com/github)
+
+    - GitHub was used to store the project after pushing
+
+* [Balsamiq](https://balsamiq.com/)
+
+    - Balsamiq was used to create the wireframes during the design phase of the project.
+
+*   [Am I Responsive?](https://ui.dev/amiresponsive)
+
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
  ## Testing
  
@@ -78,10 +95,15 @@ features
 
     - Mobile viewports have a hamburger menu that provides the navigation link to my other pages. This is utilized to take up less surface area on smaller devices.
 
+    - Youtube Embed - By providing a hands-on demonstration, these YouTube videos assist viewers in acquiring a useful skill.
+
+    - Contact Form - A contact form is used in the Contact Page, to provide a point of contact for the user.
+
     - For larger devices, the contact section breakpoint divides the map and contact information into two sections that are positioned next to each other to maximize screen real estate.
 
     - Viewport for smaller devices at the sign-up area Reduce the amount of space by moving the email and name sections underneath one another.
-
+    
+  
     - All external links open in a new tab.
 
     - I can confirm that the forms on my pages are linked to [code institute Form dump](https://formdump.codeinstitute.net).
@@ -104,6 +126,20 @@ features
 
 - There is no unfixed bugs in my website.
 
+# Deployment
+
+ -This project was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
+
+## Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Locate the GitHub Repository.
+2. At the top of the repository, select Settings from the menu items.
+3. Scroll down the Settings page to the "Pages" section.
+4. Under "Source" click the drop-down menu labelled "None" and select "Main".
+5. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+6. Scroll back down to the "Pages" section to retrieve the deployed link.
+
 ## Credit
 
 * ### Content
@@ -123,8 +159,6 @@ features
 
     - Icons was taken from [flaticon](https://www.rac.co.uk/insurance/car-insurance/guides/what-is-car-insurance).
 
-    - [W3C school](https://www.w3schools.com/) was used consecutively.
-
     - Newsletter section
 [Newsletter](https://www.youtube.com/watch?v=hjMKP9Kqkh8)
 
@@ -142,6 +176,13 @@ features
         - jump start image was used from [honkforhelp](https://www.honkforhelp.com/explore/2016/printable-jumpstart-guide/)
         - Oil level image was used from [autodeal](https://www.autodeal.com.ph/articles/car-features/how-check-your-cars-oil-level)
 
+* ### Code 
+
+    To gain a deeper understanding of coding i have used theses resources. 
+
+* [W3Schools](https://www.w3schools.com/)
+* [Stack overflow](https://stackoverflow.com/)
+* Youtube tutorials
 
 
 
