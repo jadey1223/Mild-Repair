@@ -103,11 +103,13 @@ This website is intended to target new vehicle owners who may not have much expe
 
     - Viewport for smaller devices at the sign-up area Reduce the amount of space by moving the email and name sections underneath one another.
     
-  
     - All external links open in a new tab.
 
     - I can confirm that the forms on my pages are linked to [code institute Form dump](https://formdump.codeinstitute.net).
 
+    [Tax page](https://jadey1223.github.io/Mild-Repair/tax.html) Providing a essestial list of things one should know when taxing a vehicle.
+
+    [Insurance page](https://jadey1223.github.io/Mild-Repair/insurance.html) Giving insurance information to someone who has never done it before.
 * HTML   
     - No errors were returned when passing through the official W3C validator.
 
