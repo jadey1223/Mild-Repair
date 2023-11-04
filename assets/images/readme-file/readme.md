@@ -4,9 +4,11 @@ This website is intended to target new vehicle owners who may not have much expe
 
 ![A responsive website design](../am-i-responsive.png)
 
-[View live website here](https://jadey1223.github.io/The-fundamental-manual-for-maintaining-and-repairing-cars/).
+[View live website here](https://jadey1223.github.io/Mild-Repair/).
 
 ## features
+
+[Final project screenshots](assets/images/readme-file/project-screenshots.md)
 
 * ### Naviagtion bar
  
