@@ -2,7 +2,7 @@
 
 This website is intended to target new vehicle owners who may not have much experience with vehicle maintenance and repair. The website will be useful to the target audience by providing them with the knowledge and skills they need to perform basic repairs on their own, which can save them time and money in the long run. Additionally, the website will provide information on tax and insurance, which can help new vehicle owners make informed decisions about their vehicle ownership.
 
-![A responsive website design](assets/images/am-i-responsive.png)
+![A responsive website design](../am-i-responsive.png)
 
 [View live website here](https://jadey1223.github.io/The-fundamental-manual-for-maintaining-and-repairing-cars/).
 
@@ -14,7 +14,7 @@ This website is intended to target new vehicle owners who may not have much expe
 
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
     
-![A image of my header section](assets/images/header-screenshot.png)
+![A image of my header section](../header-screenshot.png)
 
 * ### The landing page image
     
@@ -22,7 +22,7 @@ This website is intended to target new vehicle owners who may not have much expe
 
     - This section introduces a young female reaching over for a tool giving the user sense that anyone is capable to do the repairs nesseccary.
 
-    ![A image of my header introduction](assets/images/landing-page.PNG)
+    ![A image of my header introduction](../landing-page.PNG)
 
 * ### Repair guide section
     
@@ -34,21 +34,21 @@ This website is intended to target new vehicle owners who may not have much expe
 
     - In this section, I provide a newsletter to any reader who is interested in hearing about the newest developments in the automobile sector.
 
-    ![A image of my sign up section](assets/images/sign-up-section.png)
+    ![A image of my sign up section](../sign-up-section.png)
 
 * ### Contact Section
     
     - In this section we offer once a month seminar at a specific time and day. We also have intergrated a map so that visitors may find us and our address with ease.
     - We also have Alternative ways of communication via a telephone number or a email address.
 
-    ![A image of a contact section](assets/images/contact-info.png)
+    ![A image of a contact section](../contact-info.png)
 
 * ### Footer
 
     - The footer section contains connections to the appropriate social networking sites for mild repairs. The links will open in a new tab for the user's convenience.
     - The user benefits from the footer as it encourages them to stay in touch via social media.
 
-    ![A image of my footer section](assets/images/footer.png)
+    ![A image of my footer section](../footer.png)
 
 * features left to implement
 
@@ -122,7 +122,7 @@ This website is intended to target new vehicle owners who may not have much expe
 
     - Potential reasons why performance score is so low because of large image files and file formats and embedded links like videos.
 
-    ![lighthouse score](assets/images/ligthhouse.png)
+    ![lighthouse score](../ligthhouse.png)
 
 ### Unfixed bugs
 

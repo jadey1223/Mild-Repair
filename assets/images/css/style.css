@@ -81,6 +81,8 @@ hr {
 }
 
 
+/* Start sections*/
+
 .section--replacetr,
 .section--battery-info,
 .section--oil-change,
@@ -109,6 +111,9 @@ hr {
     box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
 }
 
+/* End sections*/
+
+
 #tax-list {
      background-color: #bfd8bd;
      padding: 10px 25px 20px 20px;
@@ -127,7 +132,10 @@ hr {
     background-color: #DDE7C7;
     font-size: 35px;
     width: 100vw;
-} 
+}
+
+
+/* Start heading icons*/
 
 .img-battery,
 .img-oil,
@@ -143,11 +151,14 @@ hr {
     margin-right: auto;
 } 
 
+/* End heading icons*/
+
+
 .hero-image {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url(assets/images/pexels-cottonbro-studio-4482033.jpg);
+    background-image: url(../pexels-cottonbro-studio-4482033.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -167,7 +178,9 @@ hr {
         width: auto;
 }
 
- /*icons*/
+ /* start icons*/
+
+
 #oil-level,
 #light-bulb,
 #bolt,
@@ -180,111 +193,6 @@ hr {
     float: left;
     margin-right: 1rem;
 }
-
-
-
- /*icons*/
-
-.list--replace-bulb {
-    line-height: 2rem;
-    background-color:  #DDE7C7;
-    border-radius: 8px;
-    padding: 1rem;
-}
-
-    .battery-steps {
-        margin-bottom: 20px;
-        padding: 10px 25px;
-        border-radius: 8px;
-        background-color: rgb(242, 245, 222);
-        box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
-}
-
-.replace-btry-yt,
-.replace-tire,
-.Bulb-replaceyt {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-
-/*headings*/
-    #Tax-heading {   
-        font-size: 3rem;
-        text-align: center;
-        font-weight: 300;
-        font-size: clamp(3rem, 5vw, 3rem);
-}
-
- #insurance-heading {
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 300;
-    font-size: clamp(3rem, 5vw, 3rem);
-}
-#insurance-list {
-        background-color: #77BFA3;
-        padding: 10px 25px 20px 20px;
-        border-radius: 8px;
-        box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
-}
-
-#accordion-hd {
-    color: #6c8574;
-    margin-top: 50px;
-    margin-bottom: -50px;
-    text-align: center;
-}
-
-#accordian {
-    margin: 100px auto;
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-#accordian li {
-    list-style: none;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-#accordian li label {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-#accordian li label span {
-    transform: rotate(90deg);
-    color: #000000;
-}
-
-#accordian label + input[type="radio"] {
-    display: none;
-}
-
-#accordian p {
-    font-size: 1rem;
-}
-
-#accordian .content {
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-} 
-
-#accordian label + input[type="radio"]:checked + .content {
-    max-height: 400px;
-}
-
 
 .icons {
     position: absolute;
@@ -299,8 +207,74 @@ hr {
 }
 
 
+ /* End icons*/
 
-                                /*nav-bar*/
+
+ /*Start list*/
+
+ .list--replace-bulb {
+    line-height: 2rem;
+    background-color:  #DDE7C7;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+    .battery-steps {
+        margin-bottom: 20px;
+        padding: 10px 25px;
+        border-radius: 8px;
+        background-color: rgb(242, 245, 222);
+        box-shadow: 0px 1px 5px rgba(173, 119, 119, 0.5);
+}
+
+    #insurance-list {
+        background-color: #77BFA3;
+        padding: 10px 25px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0px 1px 5px rgba(119, 173, 170, 0.5);
+}
+
+ /*End list*/
+
+
+/* start youtube videos*/
+
+.replace-btry-yt,
+.replace-tire,
+.Bulb-replaceyt {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* End youtube videos*/
+
+
+/* start headings*/
+
+
+    #Tax-heading {   
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 300;
+        font-size: clamp(3rem, 5vw, 3rem);
+}
+
+ #insurance-heading {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(3rem, 5vw, 3rem);
+}
+
+
+/* End heading*/
+
+
+ /* start nav-bar*/
+
+
 .icons:hover {
    color:  rgb(0, 0, 0);
    transition-delay: 0.4s;
@@ -327,7 +301,13 @@ hr {
     color: #77BFA3;
     transition: 0.5s ease;
 }
-                                /*nav-bar*/
+
+
+ /* End nav-bar*/
+
+
+ /*Start footer*/
+
 #check {
     display: none;
 }
@@ -353,8 +333,7 @@ footer ul li {
     padding: 8px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
-    border-radius: 8px;
-    
+    border-radius: 8px; 
 }
 
 .social-networks a i {
@@ -380,15 +359,19 @@ footer ul li {
     justify-content: center;
 }
 
+
+
 .footerbottom p {
     text-align: left;
     font-size: 1rem;
     text-align: center;
 }
 
+/*End footer*/
 
 
-                    /*sign-up-form*/
+/*Start sign-up-form*/
+
  .sign-up-tax {
     background-image: url(assets/images/travel-map.jpg);
     background-position: 60% 75%;
@@ -430,7 +413,7 @@ footer ul li {
 }
 
 .sign-up-from {
-     background-image: url(assets/images/travel-map.jpg);
+     background-image: url(../travel-map.jpg);
      background-position: 60% 75%;
      background-repeat: no-repeat;
      background-size: cover;
@@ -450,10 +433,6 @@ footer ul li {
     font-size: 1rem;
 }
 
-#newsletter {
-    font-size: 1rem;
-    color: #000000;
-}
 
 #heading-sign-up {
     color: #ffffff;
@@ -481,14 +460,10 @@ footer ul li {
     gap: 1rem;
     justify-content: center;
 }
-                                /*sign-up-form*/
-.container--news-letter {
-    text-align: center;
-    background-color: #BFD8BD;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
+  /* End sign-up-form*/
 
+
+/*Start of Contact-info*/
 .map-info,
 h2,
 p {
@@ -540,6 +515,10 @@ hr {
     position: relative;
     top: 0.7rem;
 }
+
+/*Start of Contact-info*/
+
+
 
 /*media query(smaller devices)*/
 @media screen and (min-width: 5rem) and (max-width: 46rem) {
